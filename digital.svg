@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400">
+  <defs>
+    <linearGradient id="gd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#00D4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="28" fill="rgba(255,255,255,0.06)"/>
+  <rect x="56" y="70" width="528" height="260" rx="22" fill="rgba(13,20,43,0.85)" stroke="rgba(255,255,255,0.14)"/>
+  <rect x="84" y="98" width="190" height="18" rx="9" fill="url(#gd)"/>
+  <rect x="84" y="130" width="270" height="12" rx="6" fill="rgba(234,240,255,0.30)"/>
+  <rect x="84" y="154" width="220" height="12" rx="6" fill="rgba(234,240,255,0.22)"/>
+  <g transform="translate(84,198)">
+    <rect width="150" height="110" rx="16" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="170" width="150" height="110" rx="16" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="340" width="160" height="110" rx="16" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+    <path d="M32 80 L62 50 L92 68 L120 34" stroke="url(#gd)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="32" cy="80" r="6" fill="#00D4FF"/>
+    <circle cx="62" cy="50" r="6" fill="#7C5CFF"/>
+    <circle cx="92" cy="68" r="6" fill="#00D4FF"/>
+    <circle cx="120" cy="34" r="6" fill="#7C5CFF"/>
+    <path d="M202 80 L232 56 L262 76 L290 46" stroke="rgba(234,240,255,0.55)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M372 76 L408 44 L438 70 L474 36" stroke="rgba(50,255,181,0.75)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
