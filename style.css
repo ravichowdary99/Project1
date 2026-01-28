@@ -1,23 +1,33 @@
 /* ===========================
-   GLOBAL
+   HERO VISIBILITY FIX
 =========================== */
 
-html{scroll-behavior:smooth}
-*{-webkit-tap-highlight-color:transparent}
-*{box-sizing:border-box}
+.hero{
+  position:relative;
+  z-index:2;
+}
 
-:root{
-  --bg:#070A12;
-  --bg2:#0B1020;
-  --card:#0D142B;
-  --text:#EAF0FF;
-  --muted:rgba(234,240,255,.72);
-  --muted2:rgba(234,240,255,.55);
-  --accent:#7C5CFF;
-  --accent2:#00D4FF;
-  --accent3:#32FFB5;
-  --radius:22px;
-  --max:1140px;
+.hero__inner{
+  position:relative;
+  z-index:3;
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:24px;
+}
+
+.hero__copy,
+.hero__card{
+  position:relative;
+  z-index:4;
+  opacity:1 !important;
+  visibility:visible !important;
+}
+
+.hero__bg{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  opacity:.35;
 }
 
 html,body{height:100%}
