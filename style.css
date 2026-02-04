@@ -340,3 +340,129 @@ img,video,picture{
     width:100%;
   }
 }
+/* ===================================
+   VIBRANT THEME OVERRIDE (SAFE MODE)
+=================================== */
+
+/* Global Background */
+body{
+  background: linear-gradient(
+    135deg,
+    #fff7b2,
+    #ffffff,
+    #eaf3ff
+  ) !important;
+  color: #1a1a1a !important;
+}
+
+/* Text Fix */
+.lead,
+.muted,
+.section__head p{
+  color: #444 !important;
+}
+
+/* Navbar */
+.nav{
+  background: linear-gradient(
+    to right,
+    #5b4bff,
+    #00b3ff
+  ) !important;
+  border-bottom: none !important;
+}
+
+.nav a,
+.brand__name,
+.brand__tag{
+  color: #fff !important;
+}
+
+/* Hero Section */
+.hero{
+  background: linear-gradient(
+    135deg,
+    #fff7b2,
+    #dcecff,
+    #ede9ff
+  ) !important;
+
+  border-radius: 0 0 40px 40px;
+  padding: 110px 0 80px !important;
+}
+
+.hero__copy h1{
+  color: #111 !important;
+  font-size: 52px !important;
+}
+
+.hero__copy h1 span{
+  background: linear-gradient(
+    to right,
+    #5b4bff,
+    #00b3ff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Buttons */
+.btn{
+  background: linear-gradient(
+    135deg,
+    #5b4bff,
+    #00b3ff
+  ) !important;
+
+  color: #fff !important;
+  border: none !important;
+}
+
+.btn--ghost{
+  background: transparent !important;
+  border: 2px solid #5b4bff !important;
+  color: #5b4bff !important;
+}
+
+/* Cards */
+.card,
+.stat,
+.micro,
+.faq__item{
+  background: #ffffff !important;
+  border: 1px solid rgba(0,0,0,0.08) !important;
+
+  box-shadow: 0 10px 24px rgba(0,0,0,0.1) !important;
+}
+
+/* Footer */
+.footer{
+  background: #ffffff !important;
+  border-top: 1px solid rgba(0,0,0,0.08) !important;
+}
+
+/* Section Alt */
+.section--alt{
+  background: linear-gradient(
+    to right,
+    #fff7b2,
+    #ffffff
+  ) !important;
+}
+
+/* Mobile Fix */
+@media(max-width:768px){
+
+  .hero{
+    text-align: center;
+    padding: 80px 0 60px !important;
+  }
+
+  .hero__copy h1{
+    font-size: 36px !important;
+  }
+
+  .hero__cta{
+    justify-content: center;
+  }
+}
