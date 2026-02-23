@@ -146,16 +146,13 @@ background:rgba(255,255,255,.04);align-items:center;justify-content:center;gap:5
 
 /* ===== LOGO SIZE FIX ===== */
 .brand__mark{
-  width:80px !important;
-  height:80px !important;
-  min-width:80px !important;
+  width:100px !important;
+  height:100px !important;
+  min-width:100px !important;
 }
 
 .brand__mark img{
   width:100% !important;
   height:100% !important;
   object-fit:contain;
-}
-.logo-box img {
-  transform: scale(1.5);
 }
